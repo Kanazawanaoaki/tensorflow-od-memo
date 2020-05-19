@@ -42,5 +42,5 @@ python object_detection/builders/model_builder_tf1_test.py
 ## test sample
 
 ```
-
+jupyter-notebook object_detection/object_detection_tutorial.ipynb 
 ```
