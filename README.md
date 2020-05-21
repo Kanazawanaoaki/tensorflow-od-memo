@@ -5,6 +5,7 @@ Tensorflowのテストをする。　　
 
 ```
 mkdir tf_dir
+cd tf_dir
 virtualenv tf_env
 source tf_env/bin/activate
 ```
