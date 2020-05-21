@@ -30,15 +30,15 @@ git clone https://github.com/tensorflow/models.git
 ```
 path set
 ```
+# in Ubuntu
+# protoc -I=./ --python_out=./ ./object_detection/protos/*.proto
+
 # From tensorflow/models/research/
 export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 ```
 
 env test
 ```
-# in Ubuntu
-# protoc -I=./ --python_out=./ ./object_detection/protos/*.proto
-
 # From tensorflow/models/research/
 python object_detection/builders/model_builder_tf1_test.py
 ```
