@@ -13,6 +13,8 @@ source tf_env/bin/activate
 install with https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/installation.md
 ```
 pip install tensorflow==1.15
+# actually tensorflow 2.x ?
+# pip install -U --pre tensorflow=="2.*"
 ```
 
 ```
@@ -22,6 +24,9 @@ pip install pillow
 pip install lxml
 pip install jupyter
 pip install matplotlib
+
+# in Ubuntu
+# pip install pathlib
 ```
 
 clone repository
@@ -46,5 +51,5 @@ python object_detection/builders/model_builder_tf1_test.py
 ## test sample
 
 ```
-jupyter-notebook object_detection/object_detection_tutorial.ipynb 
+jupyter-notebook object_detection/object_detection_tutorial.ipynb
 ```

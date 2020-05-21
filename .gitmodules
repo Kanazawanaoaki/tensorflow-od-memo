@@ -1,0 +1,3 @@
+[submodule "notebooks/models"]
+	path = notebooks/models
+	url = https://github.com/tensorflow/models.git
